@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap);
 
 
 
@@ -40,7 +41,7 @@ body {
   font-size: 2.75rem;
 }
 .display-7 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 1.5rem;
   line-height: 1.5;
 }
@@ -597,6 +598,17 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):hover {
 .alert-danger {
   background-color: #ff9966;
 }
+.mbr-section-btn a.btn:not(.btn-form) {
+  border-radius: 100px;
+}
+.mbr-section-btn a.btn:not(.btn-form):hover,
+.mbr-section-btn a.btn:not(.btn-form):focus {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
+  -webkit-box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
+}
+.mbr-gallery-filter li a {
+  border-radius: 100px !important;
+}
 .mbr-gallery-filter li.active .btn {
   background-color: #6592e6;
   border-color: #6592e6;
@@ -604,6 +616,9 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):hover {
 }
 .mbr-gallery-filter li.active .btn:focus {
   box-shadow: none;
+}
+.nav-tabs .nav-link {
+  border-radius: 100px !important;
 }
 a,
 a:hover {
@@ -660,6 +675,19 @@ blockquote {
   border-color: #6592e6;
 }
 /* Forms */
+.mbr-form .input-group-btn a.btn {
+  border-radius: 100px !important;
+}
+.mbr-form .input-group-btn a.btn:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
+.mbr-form .input-group-btn button[type="submit"] {
+  border-radius: 100px !important;
+  padding: 1rem 3rem;
+}
+.mbr-form .input-group-btn button[type="submit"]:hover {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
+}
 .jq-selectbox li:hover,
 .jq-selectbox li.selected {
   background-color: #6592e6;
@@ -731,57 +759,82 @@ a {
   transition: color 0.6s;
 }
 .cid-s9fno6oRhs {
-  background-image: url("../../../assets/images/mbr-1920x1200.jpg");
+  background-image: url("../../../assets/images/mbr-2-1920x1200.jpg");
 }
 .cid-s9fno6oRhs .mbr-text,
 .cid-s9fno6oRhs .mbr-section-btn {
   text-align: center;
-  color: #ffffff;
+  color: #e43f3f;
 }
 .cid-s9fno6oRhs .mbr-section-title {
   text-align: center;
-  color: #000000;
+  color: #ffffff;
 }
-.cid-s9fOWnFp5w {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  background-color: #ffe161;
+.cid-s9gvnrbC18 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #ffffff;
 }
-.cid-s9fOWnFp5w .mbr-text,
-.cid-s9fOWnFp5w .mbr-section-btn {
-  color: #232323;
+.cid-s9gvnrbC18 .card-box {
+  z-index: 10;
+  position: relative;
 }
-@media (max-width: 991px) {
-  .cid-s9fOWnFp5w .mbr-text,
-  .cid-s9fOWnFp5w .mbr-section-btn {
-    text-align: center;
+@media (min-width: 1500px) {
+  .cid-s9gvnrbC18 .container {
+    max-width: 1400px;
   }
 }
-@media (max-width: 991px) {
-  .cid-s9fOWnFp5w .mbr-text,
-  .cid-s9fOWnFp5w .mbr-section-title {
-    text-align: center;
-  }
+.cid-s9gvnrbC18 .card {
+  margin: auto;
 }
-.cid-s9fOWnFp5w a.btn {
-  height: 100%;
-  margin: 0;
+.cid-s9gvnrbC18 .mbr-iconfont {
+  display: block;
+  font-size: 5rem;
+  color: #6592e6;
+  margin-bottom: 2rem;
 }
-.cid-s9fOWnFp5w .mbr-section-btn {
+.cid-s9gvnrbC18 .card-wrapper {
   display: flex;
-  margin-bottom: 1rem;
-  width: 100%;
-}
-.cid-s9fOWnFp5w .mbr-section-btn .btn {
-  width: 100%;
-}
-@media (max-width: 991px) {
-  .cid-s9fOWnFp5w .image-wrapper {
-    margin-bottom: 2rem;
-  }
-}
-.cid-s9fOWnFp5w .justify-content-center {
+  justify-content: center;
   align-items: center;
+}
+.cid-s9gvnrbC18 .row {
+  justify-content: center;
+}
+.cid-s9gEwHlev3 {
+  padding-top: 90px;
+  padding-bottom: 75px;
+  background-color: #ffffff;
+  background: linear-gradient(90deg, #ffffff, #fff0b0);
+}
+.cid-s9gEwHlev3 .mbr-overlay {
+  background: #efefef;
+}
+.cid-s9gEwHlev3 .mbr-section-subtitle {
+  color: #8d97ad;
+}
+.cid-s9gEwHlev3 .client-name {
+  color: #8d97ad;
+}
+.cid-s9gEwHlev3 .wrap-img {
+  padding-bottom: 1rem;
+}
+.cid-s9gEwHlev3 .wrap-img img {
+  max-width: 100%;
+}
+.cid-s9gEwHlev3 .card-box p {
+  color: #8d97ad;
+  margin: 0;
+  padding-bottom: 1.5rem;
+}
+.cid-s9giDwGiCE {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #98dee8;
+}
+.cid-s9giDwGiCE .mbr-overlay {
+  background-color: #ffffff;
+  opacity: 0.4;
 }
 .cid-s9fK3vbZId {
   padding-top: 2rem;
