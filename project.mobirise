@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "My Site",
+    "name": "PuntoCom web static",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
@@ -43,14 +43,21 @@
     "versionPublish": "5.0.29",
     "imageResize": true,
     "screenshot": "screenshot.png",
-    "publishChangesOnly": true
+    "publishChangesOnly": true,
+    "favicon": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
-        "meta_descr": "",
+        "title": "PuntoCom ST",
+        "meta_descr": "PuntoCom Servicios tecnológicos, tecnología de punta al alcance de todos.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
