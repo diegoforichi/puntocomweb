@@ -759,7 +759,7 @@ a {
   transition: color 0.6s;
 }
 .cid-s9fno6oRhs {
-  background-image: url("../../../assets/images/mbr-1-1920x1200.jpg");
+  background-image: url("../../../assets/images/mbr-2-1920x1280.jpg");
 }
 .cid-s9fno6oRhs .mbr-text,
 .cid-s9fno6oRhs .mbr-section-btn {
@@ -768,7 +768,7 @@ a {
 }
 .cid-s9fno6oRhs .mbr-section-title {
   text-align: center;
-  color: #e6c63b;
+  color: #ffffff;
 }
 .cid-s9gvnrbC18 {
   padding-top: 4rem;
@@ -804,8 +804,7 @@ a {
 .cid-s9gEwHlev3 {
   padding-top: 90px;
   padding-bottom: 75px;
-  background-color: #ffffff;
-  background: linear-gradient(90deg, #ffffff, #fff0b0);
+  background-color: #fff0b0;
 }
 .cid-s9gEwHlev3 .mbr-overlay {
   background: #efefef;
@@ -826,6 +825,25 @@ a {
   color: #8d97ad;
   margin: 0;
   padding-bottom: 1.5rem;
+}
+.cid-s9hmgOREpg {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-s9hmgOREpg .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-s9hmgOREpg .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .cid-s9hmgOREpg .image-wrapper {
+    margin-bottom: 2rem;
+  }
 }
 .cid-s9giDwGiCE {
   padding-top: 75px;
